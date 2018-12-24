@@ -9,6 +9,6 @@ import java.util.Date;
 public class Hello {
     @RequestMapping("/")
     public String sayHello() {
-        return "Hello jenkins6666, " + new Date();
+        return "Hello jenkins8888, " + new Date();
     }
 }
