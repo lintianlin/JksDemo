@@ -7,7 +7,7 @@ import java.util.Date;
 
 @RestController
 public class Hello {
-    @RequestMapping("/")
+    @RequestMapping("/hello")
     public String sayHello() {
         return "Hello 大傻逼！6666, " + new Date();
     }
